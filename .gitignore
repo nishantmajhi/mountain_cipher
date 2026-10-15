@@ -1,0 +1,9 @@
+# Build output
+build/
+mountain_encrypt
+mountain_decrypt
+mountain_encrypt.exe
+mountain_decrypt.exe
+
+# Temp files the test suites create in the working directory
+mc_*.tmp

@@ -1,0 +1,6 @@
+# core.autocrlf is true on the machine this project is developed on, and
+# the shell script was committed with CRLF line endings as a result - which
+# bash on Linux will not run. Pin it to LF in the repository regardless of
+# anyone's autocrlf setting. Patterns are matched last-wins, so keep any
+# broader rule above this one.
+*.sh text eol=lf
